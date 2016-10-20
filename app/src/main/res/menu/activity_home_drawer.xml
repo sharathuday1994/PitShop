@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homenav_new_cars"
+            android:icon="@drawable/new_car"
+            android:title="@string/menu_new" />
+        <item
+            android:id="@+id/homenav_used_cars"
+            android:icon="@drawable/car_used"
+            android:title="@string/menu_used" />
+        <item
+            android:id="@+id/homenav_vintage_cars"
+            android:icon="@drawable/car_vintage"
+            android:title="@string/menu_vintage" />
+        <item
+            android:id="@+id/homenav_compare_cars"
+            android:icon="@drawable/compare_scales"
+            android:title="@string/menu_compare" />
+    </group>
+
+
+</menu>

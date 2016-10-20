@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="14sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Text"
+        android:textColor="@color/textBlack"
+        android:id="@+id/check_list_title"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="14sp"
+        android:layout_weight="3"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="14sp"
+            android:layout_height="match_parent"
+            android:src="@drawable/unchecked"
+            android:id="@+id/check_list_image"/>
+    </LinearLayout>
+
+</LinearLayout>
